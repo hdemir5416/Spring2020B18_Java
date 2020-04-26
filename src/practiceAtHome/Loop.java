@@ -1,20 +1,22 @@
 package practiceAtHome;
 
+import java.util.*;
+
+
+
+
+
 public class Loop {
+
     public static void main(String[] args) {
+        int n = 9;
+        System.out.println(fib(n)); }
+
+     public  static int fib(int n){
+        if (n <= 1)
+            return n;
+        return fib(n-1) + fib(n-2);
+    }
 
 
-        for (int i =0; i <=7; i+=1) {
-            System.out.println("* ");
-
-            {
-                for (int z = 1; z <=i; z++) {
-                    System.out.print("* ");
-                }
-
-
-            }
-        }
-
-    }}
-
+}

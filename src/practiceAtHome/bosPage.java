@@ -1,25 +1,23 @@
-package practiceAtHome;
+import java.util.Scanner;
+class practiceAthome {
 
-
-import java.time.LocalDate;
-import java.util.Arrays;
-public class bosPage {
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int sayi = scan.nextInt();
+
+        int sum = 0;
+        int b = 1;
+
+        for(int i = 0; i < sayi; i++){
+            //           1 1 2
+            sum += b; // s1 s2
+            b = sum-1;  // b1 b2
+        }
+        System.out.println(sum);
 
 
-        LocalDate a = LocalDate.of(2020, 10, 25);
+        }
 
-        LocalDate birthday = LocalDate.of(1987, 02, 01);
-        boolean result = a.isAfter(birthday);
-        System.out.println(result);
-
-        boolean result2 = a.isEqual(birthday);
-        System.out.println(result2);
-
-    }
-
-
-
-}
-
+        }
