@@ -1,4 +1,5 @@
 package Resourses;
+import java.util.ArrayList;
 import java.util.Arrays;
 public class Library {
     public static int[] sortDesending(int[] arr){
@@ -54,6 +55,21 @@ public class Library {
         }
         return result;
     }
+
+    public static int max(ArrayList<Integer> list) {
+        int max2 = Integer.MIN_VALUE;
+
+        for (Integer each : list) {  //i:0,1,2,3,4
+
+            if (each > max2) {
+                max2 = each;
+            }
+        }
+        return max2;
+    }
+
+
+
 }
 
 
