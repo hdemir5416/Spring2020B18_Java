@@ -20,6 +20,15 @@ public class ValueOfMethods4 {
 
         System.out.println(d1==d2);  //true
 
+        String b5= "12345";
+        Integer b6= Integer.parseInt(b5);
+           System.out.println(b6);
+
+           String f3="567";
+           int f4 =Integer.valueOf(f3);
+
+
+
         System.out.println("======================================================");
 
 
@@ -52,6 +61,12 @@ public class ValueOfMethods4 {
         int maxNum = Integer.MAX_VALUE;//214783647
         int minNum= Integer.MIN_VALUE; //-214783647
 
+
+        String y= "tRUE";
+        boolean o=Boolean.parseBoolean(y);
+        boolean o2= Boolean.valueOf(y);
+
+
         double maxNum2= Double.MAX_VALUE; // 1.3969695994494
 
         byte maxNum3 = Byte.MAX_VALUE; // 127
@@ -64,7 +79,7 @@ public class ValueOfMethods4 {
         Boolean[] arr2 = new Boolean[3];
         System.out.println(Arrays.toString(arr2)); //[null, null, null]
 
-       
+
 }
 
 

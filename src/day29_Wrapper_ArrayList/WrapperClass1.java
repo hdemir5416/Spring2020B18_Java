@@ -31,6 +31,10 @@ public class WrapperClass1 {
 
 
 
+        Integer w2= 100;
+        double a5=w2;
+        System.out.println(a5);
+
 
 
 

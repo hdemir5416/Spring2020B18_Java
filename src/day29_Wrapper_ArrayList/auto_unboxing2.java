@@ -12,7 +12,11 @@ public class auto_unboxing2 {
           short m= c;  // Unboxing
 
 
+           Integer w =100;
+           int a1= w;  // unboxing
 
+    byte s3=5;
+    Byte g3=s3;  //Autoboxing
 
 
 
