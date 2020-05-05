@@ -1,4 +1,10 @@
 package day30_Wrapper_Array_Continue;
+
+
+
+
+import java.util.Arrays;
+
 /*
 1. write a program that can return the sum of all the digits from a string
 			ex:
@@ -28,5 +34,38 @@ public class SumOfDigit_warm1 {
             System.out.println(sum);
 //        Character.isAlphabetic('A'): identify if the char is aplhbet
         }
+        System.out.println("===================================================================");
 
-    }}
+        String w="123abc";
+        char[]z= w.toCharArray();
+       int result =0;
+
+        for(char  each:z){
+            if(Character.isDigit(each)){
+                result+=Integer.parseInt(""+each);
+            }}
+        System.out.println(result);
+
+        System.out.println("=========================================");
+
+    //    input: "Today's date is 04/27/2020"
+    //    output: 17
+      String input="Today's date is 04/27/2020";
+      char[] ab = input.toCharArray();
+
+      int sum1=0;
+
+      for(char each:ab){
+
+          if(Character.isDigit(each)){
+              sum1+= Integer.parseInt(""+each);
+
+          }
+      }
+
+        System.out.println();
+      }}
+
+
+
+

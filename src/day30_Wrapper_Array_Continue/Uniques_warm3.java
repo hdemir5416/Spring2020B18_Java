@@ -24,16 +24,9 @@ public class Uniques_warm3 {
            for (Integer each : list) {
 
                if (each == list.get(i)) {
-                   count++;
-               }
-           }
+                   count++; }}
            if (count == 1) {
-               uniques.add(list.get(i)); //0 1 2
-           }
+               uniques.add(list.get(i)); //0 1 2   }
+               // }
 
-           System.out.println(uniques);
-
-
-       }
-    }
-}
+ }           System.out.println(uniques);}}}

@@ -2,6 +2,8 @@ package day29_Wrapper_ArrayList;
 import Resourses.Library;
 
 import java.util.ArrayList;
+import java.util.Collections;
+
 public class List_Practice_2 {
     public static void main(String[] args) {
         /*
@@ -19,7 +21,12 @@ public class List_Practice_2 {
         list.add(300);
         list.add(400);
         list.add(50);
+        Collections.sort(list);
+        System.out.println(list);
+        Collections.max(list);
 
+        System.out.println( Collections.max(list));
+        System.out.println(Collections.min(list));
         int max = Integer.MIN_VALUE;
         //       int max= list.get(0);
 

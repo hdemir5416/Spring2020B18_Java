@@ -10,7 +10,7 @@ public class ValueOfMethods4 {
 
         Integer b =Integer.valueOf(a); //Integer, 123
 
-       double b1=Integer.valueOf(a);
+        double b1=Integer.valueOf(a);
         System.out.println(b1);  //123.0
 
         String str2= "15.5";
@@ -20,12 +20,20 @@ public class ValueOfMethods4 {
 
         System.out.println(d1==d2);  //true
 
-        String b5= "12345";
-        Integer b6= Integer.parseInt(b5);
-           System.out.println(b6);
 
-           String f3="567";
+        String b5= "123";
+        Integer b6= Integer.parseInt(b5);
+        int b7= Integer.parseInt(b5);
+        System.out.println(b6+1); //124
+        System.out.println(b7+1); //124
+
+
+
+
+
+        String f3="567";
            int f4 =Integer.valueOf(f3);
+        System.out.println(f4+1); //568
 
 
 

@@ -26,5 +26,7 @@ public class CombineTwoArray_warm4 {
             list.add(each);
 
         }
+
+
+        }
     }
-}

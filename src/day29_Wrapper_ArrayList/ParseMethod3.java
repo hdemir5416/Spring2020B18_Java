@@ -35,6 +35,9 @@ public class ParseMethod3 {
           String result2 = "fAlse";  // false
           boolean w1= Boolean.parseBoolean(result2); //false
 
+        String result3= "tRUe";
+        boolean f= Boolean.parseBoolean(result3);  //true
+
 
 
 
